@@ -3,3 +3,5 @@ ignore: # Root level for the .wiz file.
     ALL: # Rules to ignore.
       - src/main/util/urlutil/redact_test.go # Path to be ignored.
         reason: BY_DESIGN # Pre-defined reason.
+      - /util/urlutil/redact_test.go
+        reason: BY_DESIGN
