@@ -1,5 +1,5 @@
 ignore: # Root level for the .wiz file.
   secrets: # Against which scan type to ignore.
     ALL: # Rules to ignore.
-      - /util/urlutil/redact_test.go # Path to be ignored.
+      - src/main/util/urlutil/redact_test.go # Path to be ignored.
         reason: BY_DESIGN # Pre-defined reason.
