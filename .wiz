@@ -5,5 +5,5 @@ ignore: # Root level for the .wiz file.
         reason: BY_DESIGN # Pre-defined reason.
       - /util/urlutil/redact_test.go
         reason: BY_DESIGN
-      - /util/urlutil/redact.go
+      - src/main/util/urlutil/redact.go
         reason: BY_DESIGN
